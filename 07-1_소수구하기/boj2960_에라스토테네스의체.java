@@ -7,7 +7,7 @@ public class boj2960_에라스토테네스의체 {
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		int N = Integer.parseInt(st.nextToken());
 		int K = Integer.parseInt(st.nextToken());
-		int cnt = 0;
+		int cnt = 0; // 전체돌기
 		boolean[] isPrime = new boolean[N + 1];
 		for (int i = 2; i <= N; i++) {
 			if (isPrime[i])
