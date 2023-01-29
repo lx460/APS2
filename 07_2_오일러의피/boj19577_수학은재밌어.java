@@ -1,7 +1,7 @@
 import java.io.*;
 
 public class boj19577_수학은재밌어 {
-	static int oi(int num) {
+	static int oi(int num) { // 오일러의피
 		int result = num;
 		for (int i = 2; i <= Math.sqrt(num); i++) {
 			if (num % i == 0) {
@@ -20,7 +20,7 @@ public class boj19577_수학은재밌어 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
 		int ans = -1;
-		for (int i = 1; i <= Math.sqrt(n); i++) {
+		for (int i = 1; i <= Math.sqrt(n); i++) { //
 			if (n % i == 0) {
 				if (n / i != i) {
 					if (n/i * oi(n/i) == n) {
