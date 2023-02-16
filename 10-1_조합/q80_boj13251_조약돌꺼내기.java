@@ -6,7 +6,7 @@ public class q80_boj13251_조약돌꺼내기 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int M = Integer.parseInt(br.readLine());
 		double[] stone = new double[M + 1];
-		double[] percent = new double[M + 1];
+		double[] percent = new double[M + 1]; // 확률
 		double sum = 0;
 		double ans = 0.0;
 		StringTokenizer st = new StringTokenizer(br.readLine());
