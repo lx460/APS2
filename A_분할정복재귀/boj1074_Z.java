@@ -13,7 +13,7 @@ public class boj1074_Z {
 		ansr = Integer.parseInt(st.nextToken());
 		ansc = Integer.parseInt(st.nextToken());
 		int start = 0;
-		Z(0, 0, start, N);
+		Z(0, 0, start, N); //숲으로 나무만들기
 	}
 
 	static void Z(int r, int c, int start, int N) {
